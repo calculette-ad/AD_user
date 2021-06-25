@@ -1,5 +1,5 @@
 Import-Module ActiveDirectory
-#Import-Module NTFSSecurity
+Import-Module NTFSSecurity
 $Users = Import-Csv -Delimiter ";" -Path "C:\Tools\AD_user\userlist.csv"
 foreach ($User in $Users)  
 {  
